@@ -6,7 +6,7 @@ const DISPLAY_PREFIX = "TL";
 
 // Where the REAL redirect lives (backend URL)
 const REDIRECT_BASE =
-  process.env.REACT_APP_BACKEND_REDIRECT_URL || "http://localhost:4000";
+  process.env.REACT_APP_API_BASE_URL || "http://localhost:4000";
 
 function sortIndicator(active, dir) {
   if (!active) return "⇅";
